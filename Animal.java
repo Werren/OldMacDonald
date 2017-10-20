@@ -1,10 +1,12 @@
+Farm [] a;
 public void setup() {     
-    Cow c = new Cow("Cow", "moo");   
-    System.out.println(c.getType() + " goes " + c.getSound()); 
-      Chick a = new Chick("Chick","bawk");
-    System.out.println(a.getType() + " goes " + a.getSound());   
-         Pig b = new Pig("Pig","oink");
-    System.out.println(b.getType() + " goes " + b.getSound());   
+  a = new Farm[3];
+ for(int i=0;i<a.length;i++)
+ {
+   a[i]= new chick;
+ }
+   a[0]= new cow;
+   q[1] = new chick;
 }
 interface Animal {    
   public String getSound();        
